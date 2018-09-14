@@ -8,9 +8,6 @@ services:
       - db
   db:
     image: postgres
-    environment:
-      MYSQL_DATABASE: djangodocker_db
-      MYSQL_ROOT_PASSWORD: root
     networks:
       - main
   nginx:

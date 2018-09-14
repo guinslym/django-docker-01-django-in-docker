@@ -72,18 +72,6 @@ WSGI_APPLICATION = 'djangodocker.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
-'''
-DATABASES = {
-  'default': {
-    'ENGINE': 'django.db.backends.mysql', 
-    'NAME': 'djangodocker_db',
-    'USER': 'root',
-    'PASSWORD': 'root',
-    'HOST': 'db', # Or an IP Address that your DB is hosted on
-    'PORT': '3406',
-  }
-}
-'''
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
